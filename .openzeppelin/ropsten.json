@@ -1,0 +1,68 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x10d7eB243456C738bB13F541211E598b6C0814B2",
+    "txHash": "0xfac66b863b87fb49444d07f22fb035a31a38a2f42d6c9afc63dbba998a909345"
+  },
+  "proxies": [
+    {
+      "address": "0x7201253E24bD049c633a7C639CBC2347d2265631",
+      "txHash": "0x6550139c4959ad82c0259cd613bf8312e08739bed5d012d3a5160fe1aab913ec",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "81022b4a9f185d6881c93246259cbbcee408d043b3cdd807011ede4b901b0757": {
+      "address": "0x3a339036412233229dD2425D32aA4c0E6234Dc7D",
+      "txHash": "0x1c795eccfc88ca73c7286367a25bc8ededeb112f16a8897113ec6ba1f21af13a",
+      "layout": {
+        "storage": [
+          {
+            "label": "storedData",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "SimpleStorageUpgrade",
+            "src": "contracts\\SimpleStorageUpgrade.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "68344c998b2dd42c6bf0e8a9043fe4ff666f8a1e610edf7fcef426895af306b7": {
+      "address": "0x568d27C257e9B28CDDCfF2d4E3f48B9c450E1E66",
+      "txHash": "0x5d861a608bc7778a9f694febb35c6966000838a7466a3a1f6cd8c7c96046d461",
+      "layout": {
+        "storage": [
+          {
+            "label": "storedData",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "SimpleStorageUpgradeV2",
+            "src": "contracts\\SimpleStorageUpgradev2.sol:7"
+          },
+          {
+            "label": "storedKey",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "SimpleStorageUpgradeV2",
+            "src": "contracts\\SimpleStorageUpgradev2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
