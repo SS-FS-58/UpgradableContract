@@ -15,6 +15,8 @@ contract OurCashUpgradeV2 is
     OwnableUpgradeable{
     using SafeMathUpgradeable for uint256;
 
+    uint256 public totalSupply = 0x
+
     /**
      * @notice Initializes this LPToken contract with the given name and symbol
      * @dev The caller of this function will become the owner. A Swap contract should call this
@@ -32,6 +34,8 @@ contract OurCashUpgradeV2 is
         __ERC20Permit_init(name);
         __Ownable_init_unchained();
         console.log("Test the initialized function testing");
+        uint256 totalSupply = 
+        this.mint(0x2bf8429B81947D18Fc2e8A4D5E3eB3c3e5400183, "10000000000000000000000");
         return true;
     }
 

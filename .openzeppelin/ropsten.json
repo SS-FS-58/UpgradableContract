@@ -14,6 +14,11 @@
       "address": "0x52B8983d6C55Ce7b22ae70eC4E5Fbd6904e9B986",
       "txHash": "0x55ec35791939e5a5d61c11382f867b82bded34fa806b82e3f4c7af382b484f69",
       "kind": "transparent"
+    },
+    {
+      "address": "0x0BC26c7B6d997daAC30C2De784cc818aF253e9EC",
+      "txHash": "0x7588ae705824f116264417004959236a3ff7f5e5b966b5f7096075e09f7493ef",
+      "kind": "transparent"
     }
   ],
   "impls": {
